@@ -11,12 +11,22 @@ class ChatMessage(BaseModel):
 @app.post("/api/chat")
 async def chat_endpoint(chat: ChatMessage):
     print('data',chat)
-    interpreter.chat(chat.command)
-    # def event_stream():
-    #     for result in interpreter.chat(message, stream=True):
-    #         yield f"data: {result}\n\n"
+    interpreter.auto_run = True
+    messages = interpreter.chat(chat.command)
+    return {
+      'messages': messages
+    }
+@app.post("/api/follow-up")
+async def chat_endpoint_2(chat: ChatMessage):
+    interpreter.auto_run = True
+    print('interpreter.messages', interpreter.messages)
+    result = interpreter.chat(chat.command)
+    print('result', result)
+    
+    return {
+      "messages": messages
+    }
 
-    # return StreamingResponse(event_stream(), media_type="text/event-stream")
 
 @app.get("/history")
 def history_endpoint():
