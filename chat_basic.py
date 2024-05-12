@@ -4,7 +4,6 @@ interpreter = OpenInterpreter(import_computer_api=True)
 # interpreter.llm.model='llama3-70b-8192'
 interpreter.llm.model='gpt-4-turbo'
 
-# interpreter.llm.api_key= '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'
 # interpreter.llm.api_base='https://api.groq.com/openai/v1'
 interpreter.auto_run=True
 interpreter.verbose=True

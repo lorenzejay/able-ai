@@ -15,7 +15,7 @@ async def chat_endpoint(chat: ChatMessage):
     interpreter.auto_run = True
     interpreter.llm.model='gpt-4-turbo'
     # interpreter.llm.model='llama3-70b-8192'
-    # interpreter.llm.api_key= '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'
+
     # interpreter.llm.api_base='https://api.groq.com/openai/v1'
     interpreter.custom_instructions='My work apps are: ["Arc", "Google Chrome", "Obsidian", "Xcode"], sometimes you need to open or close them.'
     interpreter.auto_run=True
