@@ -1,0 +1,1 @@
+interpreter.chat('open slack app and send a message saying "hello world from our automation" to Federico') 
