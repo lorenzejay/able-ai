@@ -1,4 +1,4 @@
-Have a Donna (from suits) in your pocket
+Bringing Open Interpreter to your Apple Ecosystem w/ Apple Shortcuts
 
 Most people have a smartphone, and instead of an additional device, would prefer connecting with their AI agents through the device they already own.
 
@@ -12,7 +12,7 @@ Our first example is leveraging open interpreter (and future local AI agents) tr
 
 `uvicorn server:app --host 0.0.0.0 --port 8000`
 
-## local tunnel for iphone shortcuts
+## Local Tunnel for Iphone Shortcuts
 
 `ngrok http --domain=<your-domain-set> 8000`
 
@@ -24,4 +24,4 @@ Our first example is leveraging open interpreter (and future local AI agents) tr
 
 ## Shortcut
 
--shortcut link here-
+https://www.icloud.com/shortcuts/f0618b8008654d6d93a4422cb1564dd6
