@@ -1,5 +1,24 @@
 Bringing Open Interpreter to your Apple Ecosystem w/ Apple Shortcuts
 
+<blockquote class="twitter-tweet">
+  <p lang="en" dir="ltr">@vkash16
+ and I showed our AI assistant to 
+@bcristei
+ 
+@altryne
+ in the 
+@SHACK15sf
+ hackathon today. We used 
+@OpenInterpreter
+, 
+@GroqInc
+, 
+@ollama
+ with llama3 to have an AI agent control our computer without typing. We aim to shift the paradigm of voice assistants to handle agentic workflows automating tasks like an actual personal assistant. Here’s our demo examples:
+</p>&mdash; Lorenze Jay (@lorenzejayTech) <a href="https://x.com/lorenzejayTech/status/1789819432254234755">May 12, 2024</a>
+</blockquote> 
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
 Most people have a smartphone, and instead of an additional device, would prefer connecting with their AI agents through the device they already own.
 
 Our focus is on agentic accessibility through the users current mobile device to help reshape the paradigm of how we interact with our mobile command interfaces.
